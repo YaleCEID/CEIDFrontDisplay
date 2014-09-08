@@ -1,0 +1,162 @@
+html { 
+  margin:0; padding: 0; height: 100% 
+}
+
+/*fontfaces*/
+
+@font-face {
+	font-family: 'universcond';
+    src: url('400756836-UniversLTStd-Cn.eot');
+    src: url('400756836-UniversLTStd-Cn.eot?#iefix') format('embedded-opentype'), 
+    url('400756836-UniversLTStd-Cn.woff') format('woff'), 
+    url('400756836-UniversLTStd-Cn.ttf') format('truetype'), 
+    url('400756836-UniversLTStd-Cn.svg') format('svg');
+}
+
+
+@font-face {
+	font-family: 'universlightcond';
+    src: url('98785401-UniversLTStd-LightCn.eot');
+    src: url('98785401-UniversLTStd-LightCn.eot?#iefix') format('embedded-opentype'), 
+    url('98785401-UniversLTStd-LightCn.woff') format('woff'), 
+    url('98785401-UniversLTStd-LightCn.ttf') format('truetype'), 
+    url('98785401-UniversLTStd-LightCn.svg') format('svg');
+}
+
+
+
+@font-face {
+	font-family: 'universboldcond';
+    src: url('400451661-UniversLTStd-BoldCn.eot');
+    src: url('400451661-UniversLTStd-BoldCn.eot?#iefix') format('embedded-opentype'), 
+    url('400451661-UniversLTStd-BoldCn.woff') format('woff'), 
+    url('400451661-UniversLTStd-BoldCn.ttf') format('truetype'), 
+    url('400451661-UniversLTStd-BoldCn.svg') format('svg');
+
+}
+
+
+
+/*font definitions*/
+
+
+
+datehead {
+  font-family: universlightcond, sans-serif;
+  font-size: 80px;
+  color: white;
+  text-transform:uppercase;
+  letter-spacing: -3px;
+	margin: 10px;
+	line-height: 80px;
+
+
+}
+
+datesub {
+  font-family: universlightcond, sans-serif;
+  font-size: 35px;
+  color: white;
+  text-transform:uppercase;
+  padding:0px 10px 10px;
+	line-height: 10px;
+}
+
+head1 {
+  font-family: universboldcond, sans-serif;
+  font-size: 80px;
+  color: white;
+  text-transform:uppercase;
+	margin: 5px;
+	line-height: 80px;
+}
+
+head2 {
+  font-family: universcond, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-transform:uppercase;
+  letter-spacing: -1.5px;
+}
+
+/*structure*/
+
+
+.col1 {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width: 566px; 
+  background: #225297;
+
+}
+
+.col2 {
+  width: 500px;
+  background: #70b744;
+
+}
+
+.col3 {
+  width: 800px;
+	height: 410	px;
+  background: #000000;
+	position:fixed;
+	left: 566px;
+	top: 0px;
+	margin-top: -42px;
+}
+
+.col4 {
+	height: 385px;
+	width: 1366px;
+	background: #00aeef;
+	clear:both;
+    position:fixed;
+    left: 0px;
+    top: 420px;
+}
+
+.date-header {
+  padding: 17px;
+  background: #00aeef;
+  padding-top: 25px
+  height: 50px;
+
+}
+
+.staff-header {
+  padding: 8px;
+	padding-left: 24px;
+  background: #006090;
+	height: 30px;
+
+
+}
+
+
+.schedule {
+  padding: 8px;
+	padding-left: 24px;
+  background: #70b744;
+  height:30px;
+
+}
+
+
+.staff-info {
+  background: #4D4D4D;
+	height: 194px;
+
+}
+
+.eventshead {
+  padding: 20px;
+  background: #4D4D4D;
+
+}
+
+.staffimg {
+  margin: 10px;
+
+}
