@@ -1,1 +1,1 @@
-web: bundle exec ruby home.rb -p $PORT -E $RACK_ENV
+web: bundle exec ruby home.rb -p $PORT
