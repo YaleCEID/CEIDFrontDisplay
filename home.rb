@@ -7,8 +7,7 @@ require 'haml'
 
 
 get '/' do
-  @upcoming = read_upcoming_events
-
+  #@upcoming = read_upcoming_events
   haml :index
 end
 
