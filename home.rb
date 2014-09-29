@@ -4,7 +4,7 @@ require 'haml'
 
 # routes
 
-=begin
+
 
 get '/' do
   @upcoming = read_upcoming_events
@@ -12,6 +12,7 @@ get '/' do
   haml :index
 end
 
+=begin
 # google calendar access logic
 
 def read_upcoming_events
