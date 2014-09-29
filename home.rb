@@ -4,7 +4,7 @@ require 'haml'
 
 # routes
 
-
+=begin
 
 get '/' do
   @upcoming = read_upcoming_events
@@ -52,5 +52,5 @@ def read_calendar(url, options = {})
   events
 end
 
-
+=end
 	
