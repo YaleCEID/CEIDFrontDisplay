@@ -86,7 +86,7 @@ head2 {
   position:fixed;
   top:0px;
   left:0px;
-  width: 566px; 
+  width: 968px;
   background: #225297;
 
 }
@@ -98,23 +98,22 @@ head2 {
 }
 
 .col3 {
-  width: 800px;
-	height: 410	px;
+  width: 566px;
+	height: 800px;
   background: #000000;
 	position:fixed;
-	left: 566px;
+	left: 968px;
 	top: 0px;
-	margin-top: -42px;
 }
 
 .col4 {
 	height: 385px;
-	width: 1366px;
+	width: 968px;
 	background: #00aeef;
 	clear:both;
     position:fixed;
     left: 0px;
-    top: 420px;
+    top: 412px;
 }
 
 .date-header {
