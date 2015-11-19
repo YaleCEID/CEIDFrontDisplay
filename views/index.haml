@@ -1,5 +1,6 @@
 !!! Strict
 %html(lang="en")
+	/ Original dimensions are roughly 1000px x 1366px
 	%head
 		%meta(charset="utf-8")
 		%meta(http-equiv="X-UA-Compatible" content="IE=9,chrome=1")
@@ -18,26 +19,25 @@
 				- dayofweek = Date.today.wday
 				- staff = 'NA'
 				- if dayofweek == 0
-					-staff = 'Catherine2_zpsogowcdln'
+					-staff = 'Catherine3_zpsnijyixkp'
 				- if dayofweek == 1
-					-staff = 'Pat2_zps27dqrun3'
+					-staff = 'Pat3_zpsxv7wwucb'
 				- if dayofweek == 2
-					-staff = 'Alex2_zpsuet1bv5w'
+					-staff = 'Alex3_zpsq4zgxnng'
 				- if dayofweek == 3
-					-staff = 'Phil%20amp%20betsy_zpsyye3jyaa'
+					-staff = 'BetsyampPhil_zpsh6gemcvn'
 				- if dayofweek == 4
-					-staff = 'Jess2_zpsnypmziyt'
+					-staff = 'Jess3_zpsurlhyahb'
 				- if dayofweek == 5
-					-staff = 'Jess2_zpsnypmziyt'
+					-staff = 'Jess3_zpsurlhyahb'
 				- if dayofweek == 6
-					-staff = 'Pong2_zps3ueyotkm'																			
+					-staff = 'Pong_zpsmduknjkz'
 				= imgurl.gsub("staffperson", staff)
-				
-                
+
 			.schedule
 				%head2 SLIDESHOW
 		.col2
-            
+
 		.col3
 			- datestr = Date.today.strftime "%Y%m%d"
 			<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;dates=#{datestr}/#{datestr}&amp;mode=DAY&amp;height=350&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=yale.edu_pj57k5d89s4ir70v87jjlps7oo%40group.calendar.google.com&amp;color=%23ec4e52&amp;src=yale.edu_tp5hu0imtdjbt39qnim2kd0dv0%40group.calendar.google.com&amp;color=%2370b744&amp;src=yale.edu_v5a8sdqrnsu6j112cckp6t3iu4%40group.calendar.google.com&amp;color=%2300aeef&amp;ctz=America%2FNew_York" style=" border-width:0 " width="380" height="805" frameborder="0" scrolling="no"></iframe>
