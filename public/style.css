@@ -101,7 +101,7 @@ head2 {
   width: 380px;
 	height: 805px;
   background: #000000;
-	position:fixed;
+	position:absolute;
 	left: 968px;
 	top: 0px;
 }
