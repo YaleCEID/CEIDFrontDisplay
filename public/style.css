@@ -98,8 +98,8 @@ head2 {
 }
 
 .col3 {
-  width: 566px;
-	height: 800px;
+  width: 380px;
+	height: 805px;
   background: #000000;
 	position:fixed;
 	left: 968px;
@@ -107,7 +107,7 @@ head2 {
 }
 
 .col4 {
-	height: 385px;
+	height: 393px;
 	width: 968px;
 	background: #00aeef;
 	clear:both;
